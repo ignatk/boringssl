@@ -9,6 +9,8 @@ if(FIPS_DELOCATE OR FIPS_SHARED)
 
     ../precompiled/bcm.o
     ../precompiled/stubs.c
+    fipsmodule/hkdf/hkdf.c
+    ../precompiled/tls/kdf.c
   )
 endif()
 
