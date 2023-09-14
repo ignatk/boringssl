@@ -7,7 +7,8 @@ if(FIPS_DELOCATE OR FIPS_SHARED)
   set(
     CRYPTO_FIPS_OBJECTS
 
-    fipsmodule/bcm.o
+    ../precompiled/bcm.o
+    ../precompiled/stubs.c
   )
 endif()
 
